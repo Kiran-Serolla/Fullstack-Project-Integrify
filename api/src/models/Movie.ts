@@ -23,7 +23,7 @@ const movieSchema = new mongoose.Schema({
   genres: [String],
   duration: {
     type: Number,
-    required: true,
+
     min: 1,
   },
   rating: {
